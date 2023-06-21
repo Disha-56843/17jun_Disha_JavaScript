@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere autem laudantium repudiandae natus commodi quae quod, quidem quaerat? Corrupti esse vel saepe autem est magni necessitatibus similique voluptatum sequi natus!</p>
+    <button id="button" onclick="invoice()" style="height: 50px; width: 200px; background-color: #666; color: #fff; margin:5px 550px;">Button</button>
+
+    <script>
+        function invoice()
+      {
+        var button = document.getElementById("button").style.display="none";
+        window.print();
+      }
+    </script>
+</body>
+</html>
