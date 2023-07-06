@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound-interest</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+</head>
+<body>
+    <form>
+        <h2>Compound-interest</h2>
+        <label for="p">Principal Amount:</label>
+        <input type="text" name="p" id="p" placeholder="Enter principal Amount"><br><br>
+        <label for="r">Interest Rate:</label>
+        <input type="text" name="r" id="i" placeholder="Enter Interest Rate"><br><br>
+        <label for="n">Number of years:</label>
+        <input type="text" name="n" id="n" placeholder="Enter years you want to invest"><br><br><br>
+
+        Compound Interest:<input type="text" id="interest"><br><br>
+        Total Amount:<input id="total" type="text"><br><br>
+        <button id="calc" type="button" onclick="comp()">Calculate</button>
+        <button id="reset">Reset</button><br><br>
+    </form>
+    
+    <script src="JavaScript/min.js"></script>
+</body>
+</html>

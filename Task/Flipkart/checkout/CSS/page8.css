@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header i{
+    margin: 0% 0.5%;
+    color: blue;
+}
+header #part1{
+    width: 31%;
+}
+header #part2{
+    margin-left: 5%;
+    width: 25%;
+    
+}
+header button{
+    text-decoration: underline;
+    width: 44%;
+    color: #949494;
+    border: none;
+    background-color: #fff;
+}
+header input:focus{
+    outline: none;
+}
+header #part2 .cart{
+    text-decoration: underline;
+}
+header span{
+    color: blue;
+}
+nav{
+    height: 15%;
+    background-color: blue;
+    color: #fff;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+nav ul,ul li{
+    display: inline;
+    margin: 2%;
+}
+nav ul li select{
+    border: none;
+    background-color: blue;
+    color: #fff;
+}
+main{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    gap: 1%;
+}
+main form{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto ;
+    grid-template-columns: 100%;
+    margin-right: 2%;
+    gap: 1%;
+    border: 1px solid gray;
+}
+main form .name{
+    display: flex;
+    justify-content: space-between;
+}
+main form label{
+    background-color: #949494;
+    font-size: large;
+    font-weight: 600;
+}
+main form input,textarea{
+    border: 1px solid blue;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 4px;
+}
+main .group{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #949494 ;
+}
+main .group .part1{
+    background-color: rgb(207, 201, 201);
+    line-height: 2;
+    padding-left: 1%;
+    font-size: large;
+    font-weight: 600;
+    color: blue;
+}
+main .group .part2 .cart{
+    display: grid;
+    grid-template-rows: 100% ;
+    grid-template-columns: 20% 25% 10% 15% 15% 10%;
+    padding-left: 2%;
+    font-weight: 600;
+    padding: 2%;
+    justify-content: center;
+}
+main .group .part2 .cart .cart1 img{
+    height: 40%;
+    width: 60%;
+    margin: 0.5%;
+}
+main .group .part2 .cart2{
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+    grid-template-columns: 100%;
+}
+main .group .part2 .cart3{
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+    grid-template-columns: 100%;
+
+}
+main .group .part2 .cart4{
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+    grid-template-columns: 100%;
+
+}
+main .group .part2 .cart5{
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+    grid-template-columns: 100%;
+
+}
+main .group .part2 .cart6{
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+    grid-template-columns: 100%;
+
+}
+main .group .part2 .cart7{
+    display: grid;
+    grid-template-rows: 50% 0.5% 50%;
+    grid-template-columns: 100%;
+}
+main .group .part2 .cart7 .text1{
+    padding: 1% 0%;
+    background-color: blue;
+    color: #fff;
+    width: 55%;
+    font-size: larger;
+    font-weight: 600;
+    justify-self: right;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+main .group .part2 .cart7 .text2{
+    padding: 1% 0%;
+    background-color: blue;
+    color: #fff;
+    width: 55%;
+    font-size: larger;
+    font-weight: 600;
+    justify-self: right;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+main .group .part2 hr{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(1, 1, 45);
+    color: #fff;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    margin-top: 1%;
+    padding-top: 1%;
+    row-gap: 4%;
+}
+footer ul li{
+    display: block;   
+}
+footer #part5{
+    grid-area: 3/ 1/ 4/ 5;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+footer hr{
+    width: 100%;
+    grid-area: 2/ 1/ 3/ 5;
+}
+footer #text1{
+    font-size: larger;
+}
+footer #part4 #text1{
+    color: blue;
+}
+footer #part5{
+    font-size: small;
+}

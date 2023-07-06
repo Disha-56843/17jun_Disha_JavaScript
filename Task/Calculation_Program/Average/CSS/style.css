@@ -1,0 +1,89 @@
+h4{
+    text-align: center;
+}
+.text{
+    width: 140px;
+}
+input{
+    margin-bottom: 2%;
+}
+body{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    margin-top: 3%;
+}
+form{
+    border: 2px solid;
+    background-color: #000;
+    color: #fff;
+    height: 400px;
+    width: 50%;
+    margin: auto;
+}
+.sub1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sub2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+
+}
+.sub3{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sub4{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sub5{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+button{
+    width: 100px;
+    height: 25px;
+    margin-left: 374px;
+}
+.part1{
+    width: 150px;
+    margin-left: 160px;
+    margin-top: 20px;
+
+}
+@media only screen and (min-width:320px) and (max-width: 580px)
+{
+    body{
+        width: 90%;
+        margin: auto;
+        height: 500px;
+        margin-top: 5%;
+    }
+    form{
+        width: 100%;
+    }
+    input{
+        margin-bottom: 2%;
+        width: 50%;
+    }
+    button{
+        width: 90px;
+        height: 25px;
+        margin-left: 6%;
+        margin-top: 10%;
+
+    }
+    .part1{
+        width: 150px;
+        margin-left: 46%;
+        margin-top: 6%;
+    
+    }
+}
