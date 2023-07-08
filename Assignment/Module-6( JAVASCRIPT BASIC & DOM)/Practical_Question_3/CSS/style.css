@@ -1,4 +1,71 @@
+*{
+    margin: 0.5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .menu{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    line-height: 1.5;
+}
+header .menu ul li{
+    list-style: none;
+    display: inline;
+}
+header .menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #835608;
+    color: black;
+    padding: 5px 10px;
+}
+header .menu a:hover{
+    background-color: #835608;
+    color: white;
+}
 h3{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 30px;
+    height: 50px;
+    color: #835608;
+}
+main{
+    width: 50%;
+    border: 2px solid black;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    height: 500px;
+    text-align: center;
+    line-height: 2.5;
+}
+footer{
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0px 15px;
+    top: 30px;
+    position: absolute;
+    border: 2px solid #835608;
+}
+footer a:hover{
+    background-color: rgb(131, 86, 8);
+    color: white;
+}
+h2{
     text-align: center;
 }
 h4{
@@ -9,13 +76,6 @@ h4{
 }
 input{
     margin-bottom: 10px;
-}
-body{
-    border: 2px solid;
-    width: 50%;
-    margin: auto;
-    height: 500px;
-    margin-top: 70px;
 }
 .sub1{
     display: flex;
