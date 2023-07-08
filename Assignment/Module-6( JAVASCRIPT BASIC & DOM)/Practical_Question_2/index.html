@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical:2</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h3>Maths Operations</h3>
+    <div class="part1">
+        <div class="text1">
+            Enter 1st number :
+        </div>
+        &nbsp;<input type="text" id="num1">
+    </div>
+    <div class="part2">
+        <div class="text1">
+            Enter 2nd number :
+        </div>
+        <input type="text" id="num2">
+
+    </div>
+    <div class="part3">
+        <button id="add" onclick="add()" >+</button>
+        <button id="sub" onclick="sub()" >-</button>
+        <button id="multi" onclick="multi()">*</button> 
+        <button id="div" onclick="div()">/</button>
+        <button id="mod" onclick="mod()">%</button>
+        <div class="part4">
+            <span class="text1">Answer is:</span>
+            <span type="text" class="text2" id="answer"></span>
+        </div>
+    </div>
+
+    <script src="./JavaScript/min.js"></script>
+</body>
+</html>

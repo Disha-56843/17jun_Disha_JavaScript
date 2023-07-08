@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question:8</title>
+</head>
+
+<body>
+
+    <h3>Q:8 What is === operator?</h3>
+    The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. <br>
+    Unlike the equality operator, the strict equality operator always considers operands of different types to be
+    different. <br><br>
+
+    <ul>
+        <li>If the operands are of different types, return false.</li>
+        <li>If both operands are objects, return true only if they refer to the same object.</li>
+        <li>If both operands are null or both operands are undefined, return true.</li>
+        <li>If either operand is NaN, return false.</li>
+        <li>Otherwise, compare the two operand's values:
+            <ul>
+                <li>Numbers must have the same numeric values. +0 and -0 are considered to be the same value.</li>
+                <li>Strings must have the same characters in the same order.</li>
+                <li>Booleans must be both true or both false.</li>
+        </li>
+    </ul>
+    </ul>
+
+    <h4>Example:</h4>
+    &emsp;&emsp;&emsp;&emsp; "hello" === "hello"; // true <br>
+    &emsp;&emsp;&emsp;&emsp;"hello" === "hola"; // false <br>
+    &emsp;&emsp;&emsp;&emsp; 1 === 1; // true <br>
+    &emsp;&emsp;&emsp;&emsp; "1" === 1; // false
+</body>
+
+</html>

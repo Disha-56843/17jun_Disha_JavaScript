@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Question:5</title>
+</head>
+<body>
+    <h3>Q:5 What are undeclared and undefined variables?</h3>
+    &emsp;&emsp; Undeclared variavles are those which are not defined or declared. and undefined variables are those which was declared but not given value to them. <br>
+
+    <h4>Undeclared:</h4>
+    When a variable is “undeclared,” it means that it has not been declared or defined in the current scope.This can happen if you try to use a variable without declaring it first, or if you misspell the variable name.
+    <h4>Example:</h4>
+        &emsp;&emsp;function calc(){ <br>
+            &emsp;&emsp;&emsp;&emsp;c = a+b; <br>
+
+            &emsp;&emsp;} <br>
+
+            &emsp;&emsp;calc();
+            // ReferenceError: c is not declared
+
+
+    <h4>Undefined</h4>
+    "Undefined" variables have been declared in the current scope, but have not been given a value. <br>Undefined is not a keyword. <br>
+    If we use 'typeof' operator to get the value of an undeclared variable, we will face the runtime error with the return value as "undefined". <br>The scope of the undeclared variables is always global. 
+    <h4>Example:</h4>
+        &emsp;&emsp;function calc(){ <br>
+
+            &emsp;&emsp;&emsp;&emsp;let c;  <br>
+            &emsp;&emsp;&emsp;&emsp;document.write(c);  <br>
+
+            &emsp;&emsp;} <br>
+
+            &emsp;&emsp;calc();
+            // ReferenceError: c is not defined
+
+</body>
+</html>
