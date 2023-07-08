@@ -31,16 +31,6 @@ h3{
     height: 50px;
     color: #835608;
 }
-main{
-    width: 50%;
-    border: 2px solid black;
-    margin: auto;
-    background-color: #000;
-    color: #fff;
-    height: 300px;
-    text-align: center;
-    line-height: 2.5;
-}
 footer{
     position: absolute;
     height: 40px;
@@ -64,45 +54,4 @@ footer ul li a{
 footer a:hover{
     background-color: rgb(131, 86, 8);
     color: white;
-}
-h2{
-    text-align: center;
-}
-.part1{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-
-}
-input{
-    width: 180px;
-    margin-left: 40px;
-}
-#answer{
-    border: none;
-    width: 50px;
-}
-button{
-    height: 30px;
-    width: 50px;
-}
-.part2{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-
-}
-.part3{
-    display: grid;
-    grid-template-rows: 40px 40px;
-    grid-template-columns: 60px 60px 60px 250px;    
-    margin-top: 20PX;
-    margin-left: 70px;
-
-}
-.part4{
-    grid-area: 1/ 4/ 2/ 5;
-    justify-self: center;
-    margin-top: 20px;
-
 }
