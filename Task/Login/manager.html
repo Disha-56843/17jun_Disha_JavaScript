@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+            letter-spacing: 2px;
+            height: 100px;
+            width: 90%;
+            margin: auto;
+            margin-top: 10%;
+        }
+
+        div {
+            line-height: 2;
+            font-size: x-large;
+            word-spacing: 3px;
+        }
+
+        button {
+            margin-top: 10%;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Welcome</h1>
+        <div>You are loged in as Manager</div>
+    </section>
+    <button onclick="logout()">Log out</button>
+
+    <script>
+        function logout() {
+            window.location = "index.html"
+        }
+    </script>
+</body>
+
+</html>
