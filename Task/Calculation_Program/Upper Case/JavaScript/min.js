@@ -1,11 +1,9 @@
 function Case()
 {
-    var nm = document.getElementById("nm").value;
-    var mail = document.getElementById("mail").value;
+    document.getElementById("nm");
+    var mail = document.getElementById("mail");
 
-    let nmm = nm.toUpperCase();
-    nm.value = nmm;
+     nm.value = nm.value.toUpperCase();
 
-    let email = mail.toLowerCase();
-    mail.value = email;
+    mail.value = mail.value.toLowerCase();
 }
