@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cart1{
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px 35px;
+    float: left;
+}
+.cart2{
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px ;
+    float: left;
+
+}
+.cart3{
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px ;
+    float: left;
+
+}
+.cart4{
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px 35px;
+    float: left;
+
+}
+.cart5{
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px 35px;
+    clear: left;
+    float: left;
+
+}
+.cart6{
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px ;
+    float: left;
+
+}
+.cart7{
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px ;
+    float: left;
+
+}
+.cart8{
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px 35px;
+    float: left;
+
+}
+.img1{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img2{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+
+}
+.img3{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+
+}
+.img4{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img5{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img6{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img7{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img8{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.image1{
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    height: 310px;
+    width: 250px;
+    float: left;
+}
+.image2{
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 310px;
+    width: 250px;
+     float: left;
+ 
+}
+.image3{
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    height: auto;
+    width: 250px;
+}
+.image4{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.image5{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.image6{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.image7{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.image8{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.text-1{
+    position: absolute;
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    top: 0;
+    right: 0;
+    padding: 3px;
+}
+img{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    top: 40px;
+    left: 30px;
+}
+.text-2{
+    position: absolute;
+    color: #f00;
+    top: 244px;
+    font-size: larger;
+}
+.txt1{
+    left: 80px;
+}
+.txt2{
+    left: 60px;
+}
+.txt3{
+    left: 66px;
+}
+.txt4{
+    left: 56px ;
+}
+.txt5{
+    left: 50px;
+}
+.txt6{
+    left: 63px;
+}
+.txt7{
+    left: 25px;
+}
+.txt8{
+    left: 70px;
+}
+.text-3{
+    font-size: large;
+    font-style: bold;
+    position: absolute;
+    top: 2px;
+    left: 80px;
+}
+.text-4{
+    font-size: large;
+    font-style: bold;
+    position: absolute;
+    top: 2px;
+    left: 130px; 
+    color: rgb(117, 116, 116);  
+    text-decoration-line: line-through;
+}
+.text-5{
+    position: absolute;
+    top: 33px;
+    left: 60px;
+    background-color: aqua;
+    color: #fff;
+    padding: 3px 6px;
+    transition: 1s;
+}
+.text-5:hover{
+    outline-offset: 2px;
+    outline: 3px solid aqua;
+}
+.text-6{
+    position: absolute;
+   
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    opacity: 0;
+    transition: 1.5s;
+    display: inline-block;
+    width: 250px;
+    padding: 6px 0;
+    text-align: center;
+}
+.image1:hover .text-6{
+    opacity: 1;
+    top: 205px;
+
+}
+.image2:hover .text-6{
+    opacity: 1;
+    top: 205px;
+}
+.image3:hover .text-6{
+    opacity: 1;
+    top: 205px;
+}
+.image4:hover .text-6{
+    opacity: 1;
+    top: 205px;
+}
+.image5:hover .text-6{
+    opacity: 1;
+    top: 205px;
+}
+.image6:hover .text-6{
+    opacity: 1;
+    top: 205px;
+}
+.image7:hover .text-6{
+    opacity: 1;
+    top: 205px;
+}
+.image8:hover .text-6{
+    opacity: 1;
+    top: 205px;
+}
+
+.text-6:hover{
+    background-color: aqua;
+}

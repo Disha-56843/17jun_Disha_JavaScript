@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../La pino'z/CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="../La pino'z/CSS/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://www.uengage.in/images/addo/logos/logo-5-1600769708.png" type="image/x-icon">
+    <title>La Pino'z Pizza - Order Pizza Online</title>
+    <script>   function load()
+        {
+            var time = setTimeout("check()", 2000);
+        }
+        function check()
+        {
+            var load = document.getElementById("loader").style="display:none";
+            var main = document.getElementById("maincontent").style="display:block";
+        }</script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        
+        $(document).ready(function () {
+            $('#slider').cycle('scrollLeft').style="display:block"
+        })
+    </script>
+    <style>
+        #maincontent{
+            display: none;
+        }
+        #loader{
+           margin-top: 10%;
+           margin-left: 35%;
+        }
+    </style>
+</head>
+
+<body onload="load()">
+
+
+    <div id="loader">
+        <img src="Image/loader.gif" alt="">
+    </div>
+    <!-- Header start -->
+    <div id="maincontent">
+    <header>
+        <div class="logo">
+            <img src="https://www.uengage.in/images/addo/logos/lapinoz-logo.png" alt="" height="60px">
+        </div>
+        <div class="media">
+            <i class="fa-solid fa-bars fa-xl"></i>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li class="order">Order Online</li>
+                    <div class="hover">
+                        <ul>
+                            <li>Male</li>
+                            <li>Female</li>
+                            <li>Child</li>
+                        </ul>
+                        <img src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?w=2000"
+                        alt="">
+                    </div>
+
+                    <li>Store Locator</li>
+                    <li>Franchise Enquiry</li>
+                    <li>Our Story</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <ul>
+                <input type="submit" value="Login" class="login">
+                <!-- <li class="login">Login</li> -->
+            </ul>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Banner start -->
+
+
+    <div class="Type">
+        <div class="type-1">Order Pizza Online On Your Area</div>
+        <div class="type-2">
+            <select name="City" id="tt1">
+                <option value="">Select Your City</option>
+                <option value="">Agra</option>
+                <option value="">Ahmedabad</option>
+                <option value="">Amreli</option>
+                <option value="">Amritsar</option>
+                <option value="">Delhi</option>
+                <option value="">Gondal</option>
+                <option value="">Mumbai</option>
+                <option value="">Rajkot</option>
+                <option value="">Surat</option>
+            </select>
+            
+<!-- 
+            <ul class="city">
+                <li class="agra">Agra
+                    <ul class="agra1">
+                        <li>sdb </li>
+                        <li>dbc </li>
+                    </ul>
+                </li>
+                <li>Ahmedabad</li>
+                <li>Amreli</li>
+                <li>Amritsar</li>
+                <li>Delhi</li>
+                <li>Gondal</li>
+                <li>Mumbai</li>
+                <li id="rajkot">Rajkot
+
+                    <ul class="rajkot-1">
+                        <li value="">Rajkot</li>
+                        <li><a target="_blank" href="https://www.google.com/maps/@22.2790186,70.7764993,17.78z">150
+                                Ft Ring Road</a></li>
+                        <li><a href="https://www.google.com/maps/@22.2685949,70.7450006,18.08z" target="_blank">Fun n
+                                Food (New Ring Road)</a></li>
+                        <li><a href="https://www.google.com/maps/@22.27716,70.76241,17z" target="_blank">Nr Crystal
+                                Mall</a></li>
+                        <li><a href="https://www.google.com/maps/@22.3024802,70.8134346,17.74z" target="_blank">Pedak
+                                Road</a></li>
+                        <li><a href="#">Raiya Circle</a></li>
+                                <li><a href="#">Virani Chowk</a></li>
+                    </ul>
+                </li>
+                <li>Surat</li>
+            </ul> -->
+
+            <select name="outlets" id="tt2">
+                <option>Select Your Favourite Outlate</option>
+                <option value=""><a target="_blank" href="https://www.google.com/maps/@22.2790186,70.7764993,17.78z">150
+                    Ft Ring Road</a></option>
+                <option value=""><a href="https://www.google.com/maps/@22.2685949,70.7450006,18.08z" target="_blank">Fun n
+                    Food (New Ring Road)</a></option>
+                <option value=""><a href="https://www.google.com/maps/@22.27716,70.76241,17z" target="_blank">Nr Crystal
+                    Mall</a></option>
+                <option value=""><a href="https://www.google.com/maps/@22.3024802,70.8134346,17.74z" target="_blank">Pedak
+                    Road</a></option>
+            </select>
+        </div>
+        <!-- <option>Select Your City</option> -->
+        <div class="type-3">Download The App For Seamless Experience</div>
+        <div class="type-4">Download Now</div>
+
+    </div>
+    <div id="slider">
+        <div class="img-1"> <img src="Image/banner1.jpg" alt="">
+            <span class="text-1">More Than 550+ Outlets</span>
+            <span class="text-2">LIVE Across India</span>
+        </div>
+        <div class="img-2"> <img src="Image/banner2.jpg" alt="">
+            <span class="text-3">The Giant Pizza Slices</span>
+            <span class="text-4">Now Available In Your City</span>
+        </div>
+        <div class="img-3"><img src="Image/banner3.jpg" alt="">
+            <span class="text-5">La Pino'z Going International</span>
+            <span class="text-6">LIVE Across India</span>
+        </div>
+    </div>
+
+
+    <!-- Banner End -->
+    <!-- cart start -->
+    <div class="cart">
+
+        <div class="cart1">
+
+            <div class="image1">
+
+                <span class="textt-1">New</span>
+                <img src="https://img.freepik.com/free-photo/mixed-pizza-with-various-ingridients_140725-3790.jpg?w=2000"
+                    alt="Chees Pizza">
+                <span class="textt-2 txt1">Chees Pizza</span>
+                <span class="textt-6">Quick View</span>
+            </div>
+            <div class="img1">
+                <span class="textt-3">$4.5</span>
+                <span class="textt-4">$6.9</span>
+                <span class="textt-5">ADD TO CART</span>
+
+            </div>
+        </div>
+        <div class="cart2">
+
+            <div class="image2">
+
+                <span class="textt-1">New</span>
+                <img src="https://media.cntraveller.com/photos/611bf12b231ed5e8dfa3488c/1:1/w_2000,h_2000,c_limit/1theos.jpg"
+                    alt="Margherita pizza">
+                <span class="textt-2 txt2">Margherita Pizza</span>
+                <span class="textt-6">Quick View</span>
+            </div>
+            <div class="img2">
+                <span class="textt-3">$4.5</span>
+                <span class="textt-4">$6.9</span>
+                <span class="textt-5">ADD TO CART</span>
+
+            </div>
+        </div>
+        <div class="cart3">
+
+            <div class="image3">
+                <span class="textt-1">New</span>
+                <img src="https://slicelife.imgix.net/609/photos/original/GardenPizza-Philadelphia-PA-PepperoniPizza-01.jpg?auto=compress&auto=format"
+                    alt="Pepperoni Pizza">
+                <span class="textt-2 txt3">Pepperoni Pizza</span>
+                <span class="textt-6">Quick View</span>
+            </div>
+            <div class="img3">
+                <span class="textt-3">$8</span>
+                <span class="textt-4">$9.2</span>
+                <span class="textt-5">ADD TO CART</span>
+            </div>
+
+        </div>
+        <div class="cart4">
+
+
+            <div class="image4">
+                <span class="textt-1">New</span>
+                <img src="https://static.uengage.in/uploads/5/image-7312-1671439924.jpeg" alt="Spring Filing Pizza">
+                <span class="textt-2 txt4">Spring Filling Pizza</span>
+                <span class="textt-6">Quick View</span>
+            </div>
+            <div class="img4">
+                <span class="textt-3">$6</span>
+                <span class="textt-4">$7.8</span>
+                <span class="textt-5">ADD TO CART</span>
+            </div>
+
+        </div>
+        <!-- </div> -->
+        <!-- <div class="cartt"> -->
+
+        <div class="cart5">
+
+
+            <div class="image5">
+                <span class="textt-1">New</span>
+                <img src="https://static.uengage.in/uploads/5/image-5816-1658409504.jpg" alt="Country side pizza">
+                <span class="textt-2 txt5">Country Side Pizza</span>
+                <span class="textt-6">Quick View</span>
+            </div>
+            <div class="img5">
+                <span class="textt-3">$9</span>
+                <span class="textt-4">10.3</span>
+                <span class="textt-5">ADD TO CART</span>
+
+            </div>
+        </div>
+        <div class="cart6">
+
+
+            <div class="image6">
+                <span class="textt-1">New</span>
+                <img src="https://static.uengage.in/uploads/5/image-3428-1671268931.jpeg" alt="Farm villa pizza">
+                <span class="textt-2 txt6">Farm Villa Pizza</span>
+                <span class="textt-6">Quick View</span>
+            </div>
+            <div class="img6">
+                <span class="textt-3">$7</span>
+                <span class="textt-4">$8.2</span>
+                <span class="textt-5">ADD TO CART</span>
+
+            </div>
+        </div>
+        <div class="cart7">
+
+
+            <div class="image7">
+                <span class="textt-1">New</span>
+                <img src="https://static.uengage.in/uploads/5/image-5241-1671268932.jpeg"
+                    alt="Paneer Tikka Masala pizza">
+                <span class="textt-2 txt7">Paneer Tikka Masala Pizza</span>
+                <span class="textt-6">Quick View</span>
+            </div>
+            <div class="img7">
+                <span class="textt-3">$4.5</span>
+                <span class="textt-4">$6.9</span>
+                <span class="textt-5">ADD TO CART</span>
+            </div>
+
+        </div>
+        <div class="cart8">
+
+
+            <div class="image8">
+                <span class="textt-1">New</span>
+                <img src="https://static.uengage.in/uploads/5/image-5121-1671268937.jpeg" alt="Cheezy-7 pizza">
+                <span class="textt-2 txt8">Cheezy-7 Pizza</span>
+                <span class="textt-6">Quick View</span>
+            </div>
+            <div class="img8">
+                <span class="textt-3">$9</span>
+                <span class="textt-4">$11.4</span>
+                <span class="textt-5">ADD TO CART</span>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- cart end  -->
+
+
+
+    <script>
+
+     
+    </script>
+</body>
+
+</html>

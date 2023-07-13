@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto; 
+}
+header{
+    height: 75px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* position: fixed; */
+    top: 0;
+    position: relative;
+}
+.media i{
+   
+    display: none;
+    
+}
+.logo{
+    height: 75px;
+    width: 30%;
+    float: left;
+    background: transparent;
+    /* position: relative; */
+}
+.logo img{
+    /* position: absolute; */
+    /* top: 12.5px; */
+    /* padding: 0; */
+    margin: 12.5px 16px;
+    height: 50px;
+    width: 150px;
+}
+.menu{
+    height: 60px;
+    width: 58%;
+    background: transparent;
+    float: left;
+   
+}
+ul,input:hover{
+    cursor: pointer;
+}
+ul{
+    height: 70px;
+    border: 1px solid transparent;
+    text-align: center;
+    line-height: 70px;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    color: darkgreen;
+}
+
+.login{
+    /* border: 2px solid; */
+    background-color: darkgreen;
+    color: #fff;
+    border-radius: 5px;
+    width: 8%;
+    margin-top: 13px;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+
+}
+.hover{
+    height: 250px;
+    width: 400px;
+    display: none;
+    opacity: 0;
+}
+.hover img{
+    height: 190px;
+    width: 150px;
+}
+.menu>ul>.order:hover .hover{
+    display: inline-block;
+    /* position: absolute; */
+    /* position: fixed; */
+    /* height: 250px;
+    width: 400px;
+    opacity: 1;
+    top: 50px;
+    left: 150px;
+    background: #000;
+    color: #fff; */
+    /* z-index: 2; */
+
+}
+.Type{
+    position: fixed;
+    position: relative;
+}
+.type-1{
+    position: absolute;
+    /* position: fixed; */
+    z-index: 2 ;
+    top: 250px;
+    left: 410px;
+    font-size: 35px;
+    color: #fff;
+}
+.type-2{
+    position: absolute;
+    /* position: fixed; */
+    top: 305px;
+    left: 440px;
+    border: 2px solid transparent ;
+    border-radius: 40px;
+    background-color: #fff;
+    z-index: 2 ;
+    font-size: 14px;   
+}
+.type-3{
+    position: absolute;
+
+    /* position: fixed; */
+    z-index: 2 ;
+    top: 380px;
+    left: 380px;
+    font-size: 30px;
+    color: #fff;
+}
+.type-4{
+    position: absolute;
+    /* position: fixed; */
+    z-index: 2 ;
+    top: 430px;
+    left: 550px;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background-color: #000;
+    font-size: 23px;
+    
+}
+#slider{
+    z-index: 1;
+  
+}
+/* .fixed{
+    position: fixed;
+    position: absolute;
+    top: 100px;
+} */
+
+#slider img{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    /* z-index: 0; */
+    height: 520px;
+    width: 101%;
+    filter: brightness(50%);
+    position: relative;
+    
+}
+
+.text-1{
+    position: absolute;
+    top: 50px;
+    left: 370px;
+    color: #fff;
+    font-size: 60px;
+}
+.text-2{
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    color: yellow;
+    font-size: 60px;
+}
+.text-3{
+    position: absolute;
+    top: 50px;
+    left: 385px;
+    color: #fff;
+    font-size: 60px;
+}
+.text-4{
+    position: absolute;
+    top: 120px;
+    left: 335px;
+    color: yellow;
+    font-size: 60px;
+}
+.text-5{
+    position: absolute;
+    top: 50px;
+    left: 270px;
+    color: #fff;
+    font-size: 60px;
+}
+.text-6{
+    position: absolute;
+    top: 120px;
+    left: 405px;
+    color: yellow;
+    font-size: 60px;
+}
+select:focus{
+    
+    outline: none;
+}
+select{
+    padding: 3px 20px ;
+    border: none;
+    margin: 15px;
+
+}
+.type-4 input{
+    padding: 10px 35px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.type-2 span{
+    display: inline-block;
+    margin-left: 45px;
+}
+/* .location{
+    position: fixed;
+} */
+.rajkot-1{
+    position: absolute;
+    background-color: #000;
+    height: 220px;
+    width: auto;
+    position: fixed;
+    top: 425px;
+    left: 490px;
+    /* z-index: 3; */
+    opacity: 0;
+}
+.rajkot-1 li a{
+    text-decoration: none;
+    color: #000;
+    color: #fff;
+    /* z-index: 3; */
+}
+.rajkot-1 li{
+    height: 3px;
+    display: none;
+    /* width: 100px; */
+    z-index: 3;
+}
+
+#rajkot:hover .rajkot-1{
+    overflow-y: visible;
+    display: inline;
+    cursor: pointer;
+    top: 495px;
+    left: 560px;
+    height: 100px;
+    width: 200px;
+    background-color: #000;
+    opacity: 1;
+    z-index: 3;
+}
+.city li{
+    display: block  ;
+    list-style: none;
+    height: 3px;
+    margin-top: 0;
+    z-index: 3;
+    
+}
+
+.city{
+    z-index: 3;
+    position: relative;
+    position: absolute;
+    position: fixed;
+    top: 408px;
+    left: 420px;
+    background-color: #fff;
+    /* height: 300px;
+    width: 140px; */
+    color: aqua;
+    display: block;
+    opacity: 0;
+    margin-top: 0;
+}/*
+.typ1{
+    margin-left: 20px;
+    position: relative;
+}*/
+.type-2:hover .city{
+    
+    padding-top: 0;
+    z-index: 3;
+    display: block;
+    margin-top: 0;
+    top: 408px;
+    left: 440px;
+    background-color: #fff;
+    height: 200px;
+    width: 140px;
+    color: aqua;
+    opacity: 1;
+} 
+.type-4:hover{
+    background-color: #fff;
+    color: #000;
+}
+.agra1{
+    position: absolute;
+    background-color: #000;
+    height: 220px;
+    width: auto;
+    position: fixed;
+    top: 425px;
+    left: 490px;
+    z-index: 3;
+    opacity: 0;
+}
+.agra1 li a{
+    text-decoration: none;
+    color: #000;
+    color: #fff;
+    z-index: 3;
+}
+.agra1 li{
+    height: 3px;
+    display: none;
+    /* width: 100px; */
+    z-index: 3;
+}
+
+.agra:hover .agra1{
+    overflow-y: visible;
+    display: inline;
+    cursor: pointer;
+    top: 495px;
+    left: 560px;
+    height: 100px;
+    width: 200px;
+    background-color: #000;
+    opacity: 1;
+    z-index: 3;
+}
+/* cart start */
+.cart{
+    position: relative;
+    height: 870px;
+}
+.cart1{
+    /* position: absolute; */
+    position: relative;
+    /* top: 0; */
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px 35px;
+    float: left;
+}
+.cart2{
+    /* position: absolute; */
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px ;
+    float: left;
+
+}
+.cart3{
+    /* position: absolute; */
+    position: relative;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px ;
+    float: left;
+
+}
+.cart4{
+    position: relative;
+    /* position: absolute; */
+    top: 0;
+    /* right: 0; */
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px 35px;
+    float: left;
+    
+
+}
+/* .cartt{
+    position: relative;
+} */
+.cart5{
+    position: relative;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 30px; */
+    /* bottom: 0; */
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px 35px;
+    /* clear: ; */
+    float: left;
+
+}
+.cart6{
+    position: relative;
+    /* position: absolute; */
+    /* bottom: 0; */
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px ;
+    float: left;
+    /* clear: left; */
+}
+.cart7{
+    position: relative;
+    /* position: absolute; */
+    /* bottom: 0; */
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px ;
+    float: left;
+
+}
+.cart8{
+    position: relative;
+    /* position: absolute; */
+    /* bottom: 0; */
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 20px #666;
+    margin: 25px 35px;
+    float: left;
+
+}
+.img1{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img2{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+
+}
+.img3{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+
+}
+.img4{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img5{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img6{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img7{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.img8{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 250px;
+    
+}
+.image1{
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    height: 310px;
+    width: 250px;
+    /* float: left; */
+}
+.image2{
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 310px;
+    width: 250px;
+     /* float: left; */
+ 
+}
+.image3{
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* float: left; */
+    height: auto;
+    width: 250px;
+}
+.image4{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.image5{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.image6{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.image7{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.image8{
+    position: relative;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 250px;
+}
+.textt-1{
+    position: absolute;
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    top: 0;
+    right: 0;
+    padding: 3px;
+}
+.cart img{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    top: 40px;
+    left: 30px;
+    transition: 0.7s;
+}
+.cart img:hover{
+    transform: rotateY(180deg);
+
+}
+.textt-2{
+    position: absolute;
+    color: #f00;
+    top: 244px;
+    font-size: larger;
+}
+.txt1{
+    left: 80px;
+}
+.txt2{
+    left: 60px;
+}
+.txt3{
+    left: 66px;
+}
+.txt4{
+    left: 56px ;
+}
+.txt5{
+    left: 50px;
+}
+.txt6{
+    left: 63px;
+}
+.txt7{
+    left: 25px;
+}
+.txt8{
+    left: 70px;
+}
+.textt-3{
+    font-size: large;
+    font-style: bold;
+    position: absolute;
+    top: 2px;
+    left: 80px;
+}
+.textt-4{
+    font-size: large;
+    font-style: bold;
+    position: absolute;
+    top: 2px;
+    left: 130px; 
+    color: rgb(117, 116, 116);  
+    text-decoration-line: line-through;
+}
+.textt-5{
+    position: absolute;
+    top: 33px;
+    left: 60px;
+    background-color: aqua;
+    color: #fff;
+    padding: 3px 6px;
+    transition: 1s;
+}
+.textt-5:hover{
+    outline-offset: 2px;
+    outline: 3px solid aqua;
+}
+.textt-6{
+    position: absolute;
+   
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    opacity: 0;
+    transition: 1.5s;
+    display: inline-block;
+    width: 250px;
+    padding: 6px 0;
+    text-align: center;
+}
+.image1:hover .textt-6{
+    opacity: 1;
+    top: 205px;
+
+}
+.image2:hover .textt-6{
+    opacity: 1;
+    top: 205px;
+}
+.image3:hover .textt-6{
+    opacity: 1;
+    top: 205px;
+}
+.image4:hover .textt-6{
+    opacity: 1;
+    top: 205px;
+}
+.image5:hover .textt-6{
+    opacity: 1;
+    top: 205px;
+}
+.image6:hover .textt-6{
+    opacity: 1;
+    top: 205px;
+}
+.image7:hover .textt-6{
+    opacity: 1;
+    top: 205px;
+}
+.image8:hover .textt-6{
+    opacity: 1;
+    top: 205px;
+}
+
+.textt-6:hover{
+    background-color: aqua;
+} 
+
+
+/* .menu ul li{
+    display: inline;
+    
+} */
