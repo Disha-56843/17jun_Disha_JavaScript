@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <title>Question:3</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#slider").cycle("turnRight");
+        });
+    </script>
 </head>
+
 <body>
     <header class="home">
         <div class="menu">
@@ -15,17 +24,45 @@
             </ul>
         </div>
     </header>
-    <h3>Q:3 How to create slider with animation?</h3><hr><hr><hr><br><br>
-    
+    <h3>Q:3 How to create slider with animation?</h3>
+    <hr>
+    <hr>
+    <hr><br><br>
+
     
 
-    <footer>
-        <div class="footer">
-            <ul>
-                <li><a href="../Question_2/index.html" target="_blank">PRIVIOUS</a></li>
-                <li style="margin-left: 1100px;"><a href="../Question_4/index.html" target="_blank">NEXT</a></li>
-            </ul>
+    <div class="syntax-example">
+        <b>Syntax:</b><br><br>
+        &lt;script src="https://malsup.github.io/jquery.cycle.all.js"&gt;&lt;/script&gt; <br>
+        &lt;script&gt; <br>
+            &emsp;&emsp;$(document).ready(function () { <br>
+                &emsp;&emsp;&emsp;&emsp;$("Id_name").cycle("Effect"); <br>
+                &emsp;&emsp;}); <br>
+        &lt;/script&gt; <br><br>
+
+        <b>Example:</b><br><br>
+        <div id="slider">
+            <img src="Image/Image1.jpg" alt="">
+            <img src="Image/Image2.jpg" alt="">
+            <img src="Image/Image3.jpg" alt="">
+            <img src="Image/Image4.jpg" alt="">
+            <img src="Image/Image5.jpg" alt="">
+        </div><br><br>
+        &lt;script&gt; <br>
+            &emsp;&emsp;$(document).ready(function () { <br>
+                &emsp;&emsp;&emsp;&emsp;$("slider").cycle("turnRight"); <br>
+                &emsp;&emsp;}); <br>
+        &lt;/script&gt; <br><br>
         </div>
-    </footer>
+            <footer>
+                <div class="footer">
+                    <ul>
+                        <li><a href="../Question_2/index.html" target="_blank">PRIVIOUS</a></li>
+                        <li style="margin-left: 1100px;"><a href="../Question_4/index.html" target="_blank">NEXT</a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
 </body>
+
 </html>

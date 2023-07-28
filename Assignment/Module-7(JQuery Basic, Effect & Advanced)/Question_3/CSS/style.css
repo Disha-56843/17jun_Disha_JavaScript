@@ -31,6 +31,14 @@ h3{
     height: 50px;
     color: #835608;
 }
+.syntax-example
+{
+    width: 50%;
+    padding-left: 2%;
+    border: 2px solid;
+    color: #fff;
+    background-color: rgb(111, 11, 111);
+}
 footer{
     position: absolute;
     height: 40px;

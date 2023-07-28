@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <title>Question:2</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Question:4 </title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".Great-Grand-Parent")
+        })
+    </script>
 </head>
 <body>
     <header class="home">
@@ -15,10 +21,17 @@
             </ul>
         </div>
     </header>
-    <h3>Q:2 What is the use of isNaN function?</h3><hr><hr><hr><br><br>
-    In JavaScript NaN is short form of "Not-a-Number". <br>
-    The isNaN() method returns true if a value is NaN. <br>
-    The isNaN() method converts the value to a number before testing it. <br>
+    <h3>Q:4 Event bubbling tickling example.</h3><hr><hr><hr><br><br>
+    
+    <section onclick="alert('This is Great Great Grand-parent')" class="Great-Grand-Parent">Great Great Grand-parent
+    <div onclick="alert('This is Great Grand-parent')">Great Grand-parent
+        <ul onclick="alert('This is Grand-parent')">Grand-parent
+            <li onclick="alert('This is Parent')">Parent 
+                <span onclick="alert('This is Child')">child</span>
+            </li>
+        </ul>
+    </div>
+    </section>
 
     <footer>
         <div class="footer">
