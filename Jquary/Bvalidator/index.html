@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/gray.css">
+    <title>B-Validator</title>
+    <!-- Online CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <script src="Jquery/bvalidator.js"></script>
+    <script src="Jquery/jquery.bvalidator.min.js"></script>
+   <script src="Jquery/default.min.js"></script>
+   <script src="Jquery/gray.js"></script>
+</head>
+<body>
+    <form id="frm" action="https://www.google.com">
+        <h3>Login</h3>
+        <hr>
+        <!-- <label for="as">Login as</label>
+        <select name="profation" id="pro">
+            <option value="">Plese select</option>
+            <option value="Manager">Manager</option>
+            <option value="Faculty">Faculty</option>
+            <option value="Developer">Developer</option>
+        </select><br> -->
+        <label for="user">Login id:</label>
+        <input type="text" name="email" data-bvalidator="required,email"><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" data-bvalidator="required,minlen[4],maxlen[10]"><br>
+        <input type="submit" value="Login">
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

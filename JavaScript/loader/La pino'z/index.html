@@ -11,16 +11,26 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="https://www.uengage.in/images/addo/logos/logo-5-1600769708.png" type="image/x-icon">
-
     <title>La Pino'z Pizza - Order Pizza Online</title>
-    <script>
-
-        $(document).ready(function () {
-            $('#slider').cycle('scrollLeft').style = "display:block"
-        })
-    </script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+   
+    <script>
+        function load() {
+            var time = setTimeout("check()", 1000);
+        }
+        function check() {
+            var load = document.getElementById("loader").style = "display:none";
+            var main = document.getElementById("maincontent").style = "display:block";
+        }
+    </script>
+   <script>
+
+    $(document).ready(function () {
+        $('#slider').cycle('scrollLeft').style = "display:block";
+    })
+</script>
+   
     <style>
         #maincontent {
             display: none;
@@ -308,15 +318,7 @@
     </section>
     <!-- cart end  -->
 
-    <script>
-        function load() {
-            var time = setTimeout("check()", 1000);
-        }
-        function check() {
-            var load = document.getElementById("loader").style = "display:none";
-            var main = document.getElementById("maincontent").style = "display:block";
-        }
-    </script>
+    
 
 
 

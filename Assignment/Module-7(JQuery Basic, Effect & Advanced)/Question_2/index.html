@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Question:2</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+    <header class="home">
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html" target="_blank">HOME</a></li>
+            </ul>
+        </div>
+    </header>
+    <h3>Q:2 How to Apply CSS Using JQuery, How to Add<br>
+        Class and Remove Class in Jquery, JQuery Animation?</h3><br><br>
+    <hr>
+    <hr>
+    <hr><br><br>
+        <main>
+    <!-- Apply css defination , syntax and example  -->
+    <h2>Apply CSS:</h2><br>
+    The css() method sets or returns one or more style properties for the selected elements. <br>
+    To return the value of a specified CSS property <br><br>
+    <div class="syntax-example"><br>
+        <b>Syntax: </b><br><br>
+        &emsp;&emsp;css("propertyname"); <br><br>
+
+        <b>Example:</b><br><br>
+        &emsp;&emsp;$("p").css("background-color"); <br><br>
+    </div> <br>
+
+
+    <!-- Add class and remove class defination , syntax and example  -->
+
+    <h2>Add Class and Remove Class:</h2><br>
+    The addClass() or removeClass() methods are used to add the CSS classes when there is a need to add to our webpage.
+    <br><br>
+    <div class="syntax-example"><br>
+        <b>Syntax: </b><br><br>
+        <li>Adding a class:</li>
+        &emsp;&emsp;$('selector').addClass(class_name);<br><br>
+        <li>Removing a class:</li>
+        &emsp;&emsp;$('selector').removeClass(class_name);<br><br>
+
+
+        <b>Example:</b><br>
+
+        $(document).ready(function() {<br>
+        &emsp;$("#btnadd").click(function() {<br>
+        &emsp; &emsp;$("p").addClass("red");<br>
+        &emsp;});<br><br>
+        &emsp;$("#btnremove").click(function() {<br>
+        &emsp;&emsp;$("p").removeClass("red");<br>
+        &emsp;});<br>
+        });<br><br><br>
+
+        <button id="btnadd"> ADD CLASS </button>
+        <button id="btnremove"> REMOVE CLASS </button><br><br>
+
+        <p style="width: 30%;height: 50px;text-align: center;line-height: 50px;">This is class</p> <br><br>
+
+        <script>
+            $(document).ready(function () {
+                $("#btnadd").click(function () {
+                    $("p").addClass("red");
+                });
+                $("#btnremove").click(function () {
+                    $("p").removeClass("red");
+                });
+            });
+        </script>
+
+    </div> <br><br>
+
+    <!--JQuery Animation  defination , syntax and example  -->
+    <h2>Abination:</h2><br>
+    The jQuery animate() method is used to create custom animations. <br>
+    The required params parameter defines the CSS properties to be animated. <br> The optional speed parameter specifies the duration of the effect. It can take the following values: "slow", "fast", or milliseconds. <br> The optional callback parameter is a function to be executed after the animation completes. <br><br>
+    <div class="syntax-example"><br>
+        <b>Syntax: </b><br><br>
+        &emsp;&emsp;$(selector).animate({params},speed,callback); <br><br>
+
+        <b>Example:</b><br><br>
+        &emsp;&emsp;$("button").click(function(){ <br>
+            &emsp;&emsp;&emsp;&emsp; $("div").animate({left: '250px'}); <br>
+            &emsp;&emsp;&emsp;&emsp;opacity: '0.5', <br>
+            &emsp;&emsp;&emsp;&emsp;height: '150px', <br>
+            &emsp;&emsp;&emsp;&emsp; width: '150px' <br>
+            &emsp;&emsp; });  <br><br>
+            
+            <button type="button" id="btn1" >Start Animation</button><br><br>
+            <div class="animate" style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> <br><br><br><br><br><br><br><br><br>
+
+            <script> 
+                $(document).ready(function(){
+                  $("#btn1").click(function(){
+                    $(".animate").animate({
+                      left: '250px',
+                      opacity: '0.5',
+                      height: '150px',
+                      width: '150px'
+                    });
+                  });
+                });
+                </script> <br>
+    </div> <br>
+
+</main>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="../Question_1/Index.html" target="_blank">PRIVIOUS</a></li>
+                <li style="margin-left: 1100px;"><a href="../Question_3/index.html" target="_blank">NEXT</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
