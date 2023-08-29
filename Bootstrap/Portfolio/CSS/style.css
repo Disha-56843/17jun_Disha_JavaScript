@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#header{
+    background-color: rgb(102, 102, 102 ,0.5) !important;
+
+}
+.navbar-expand
+{
+    /* position: relative; */
+    height: 70px !important;
+}
+
+.navbar-expand .nav-item{
+    margin: 3% !important;
+    padding: 2%;
+
+    
+}
+.hero{
+    margin-top: 70px !important;
+    height: 400px !important;
+}
+.hero h3{
+    
+}
+.col-md-7{
+    margin-left: 80px !important;
+}
+@media only screen and (min-width : 768px)
+{
+    .navbar-expand
+    {
+        /* position: relative !important; */
+    }
+    .navbar-expand #bar{
+        display: none !important;
+        position: fixed;
+        
+
+    }
+    .navbar-expand #menu
+{
+    display: flex !important;
+    color: #fff !important;
+    
+
+}
+.navbar-expand #coll
+{
+    display: flex !important;
+    color: #fff !important;
+    /* position: absolute !important;
+    top: 60px !important;
+    left: 0px !important; */
+    /* margin-left: 0 !important ; */
+    
+}
+    .navbar-expand .nav-item{
+        display: inline-block;
+        margin: 0;
+        padding: 1%;
+    }
+}
