@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head
+{
+    height: 72px;
+    width: 80%;
+    float: right;
+}
+#frame1
+{
+    height:100vh;
+    width:20%;
+}
+#admin
+{
+    background-color: #214162;
+    /* height: 20vh; */
+}
+#admin img
+{
+    margin: auto;
+}
+#sidebar
+{
+    background: rgb(21, 40, 60);   
+    padding-bottom: 40%;
+}
+#sidebar ul
+{
+    background: url("Image\sidebar.png");
+}
+/* #sidebar h3
+{
+    margin-top: 3%;
+} */
+ul li
+{
+    list-style: none;
+    margin-bottom: 5%;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+#sidebar hr
+{
+    color: #ff5722;
+}
