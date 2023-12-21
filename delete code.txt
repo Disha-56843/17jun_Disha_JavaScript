@@ -1,0 +1,5 @@
+To delete node_module folder.
+
+Go to project folder and open terminal at same place and hit below command in terminal
+
+npx rimarf **/node_modules

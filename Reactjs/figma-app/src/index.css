@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input,i
+{
+  display: inline-block;
+}
+strike
+{
+  color: #848484;
+}
+/* hr
+{
+  display: inline-block;
+} */
+.seperat 
+{
+  width: 40%;
+  display: inline-block;
+}
+
+.left 
+{
+  float: left;
+}
+.right 
+{
+  float: right;
+}
+#img
+{
+  position: relative;
+}
+#h2
+{
+  width: 175px;
+  height: 29px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -90%;
+  left:25%;
+  color: #fff;
+}
+#h3
+{
+  color: #FFF;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#h4
+{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#btn
+{
+  display: flex;
+width: 118px;
+height: 34px;
+padding: 6px 31px 7px 31px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #FFF;
+background-color: transparent;
+color: #fff;
+position: absolute;
+  top: 0;
+  left:25%;
+}
+#wishlist
+{
+  display: flex;
+width: 180px;
+height: 38px;
+padding: 11px 47px 10px 47px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #002482;
+}
+#addtobag
+{
+  display: flex;
+width: 180px;
+height: 38px;
+padding: 11px 38px 10px 38px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #002482;
+background: #002482;
+}
