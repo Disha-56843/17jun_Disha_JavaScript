@@ -25,6 +25,9 @@ import product11 from "../Assets/product11.png";
 import product12 from "../Assets/product12.png";
 import product13 from "../Assets/product13.png";
 import product14 from "../Assets/product14.png";
+import forever21logo from "../Assets/Forever 21 Logo.png";
+import bigfashion from "../Assets/Big Fashion Festival.png";
+import off from "../Assets/70% - 80% Off.png";
 
 
 // import product2 from "../Assets/product2.png";
@@ -61,7 +64,8 @@ export default function Homepage() {
             <span>Western</span>
           </div>
         </div>
-        <div id="carouselExampleCaptions" className="carousel slide mt-5" data-bs-ride="carousel">
+
+        <div id="carouselExampleCaptions" className="carousel slide mt-5 ms-1" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -71,24 +75,29 @@ export default function Homepage() {
             <div className="carousel-item active">
               <img src={forever21} className=" w-100" alt="" id='img' />
               <div className="carousel-caption">
-                <h1 id='h2' className=''>FOREVER 21</h1>
-                <h4 id='h4'>Big Fashion Festival</h4>
-                <h3 id='h3'>70%-80% Off</h3>
+              
+                <img src={forever21logo} id='h2' />
+                <img src={bigfashion} id='h4' />
+                <img src={off} id='h3' />
                 <button id='btn'>Explore</button>
               </div>
             </div>
             <div className="carousel-item">
               <img src={forever21} className="d-block w-100" alt="" id='img' />
               <div className="carousel-caption">
-                <h2 id='h2'>Second slide label</h2>
-                <p>Some representative placeholder content for the second slide.</p>
+              <img src={forever21logo} id='h2' />
+                <img src={bigfashion} id='h4' />
+                <img src={off} id='h3' />
+                <button id='btn'>Explore</button>
               </div>
             </div>
             <div className="carousel-item">
               <img src={forever21} className="d-block w-100" alt="" id='img' />
               <div className="carousel-caption">
-                <h2 id='h2'>Third slide label</h2>
-                <p>Some representative placeholder content for the third slide.</p>
+              <img src={forever21logo} id='h2' />
+                <img src={bigfashion} id='h4' />
+                <img src={off} id='h3' />
+                <button id='btn'>Explore</button>
               </div>
             </div>
           </div>
@@ -232,7 +241,7 @@ export default function Homepage() {
           <h3 className='ms-3'>Rs. 799</h3>
           <span className='fs-5 fw-bold ms-2' style={{ color: "#0EB000" }}>(20% Off)</span>
         </div>
-        <div style={{ display: "flex" }} className='mt-2'>
+        <div style={{ display: "flex" }} className='mt-2 mb-5'>
           <button id='wishlist' >Wishlist
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32" fill="none" className='ms-2 mt-1'>
               <path d="M4 16C1 12 2 6.00004 7 4.00004C12 2.00004 15 6.00004 16 8.00004C17 6.00004 21 2.00004 26 4.00004C31 6.00004 31 12 28 16C25 20 16 28 16 28C16 28 7 20 4 16Z" stroke="#848484" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -244,8 +253,8 @@ export default function Homepage() {
           </button>
         </div>
 
-        <Footer />
       </MDBContainer >
+        <Footer />
     </div >
   )
 }
