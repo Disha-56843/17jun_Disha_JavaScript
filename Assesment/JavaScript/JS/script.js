@@ -18,7 +18,11 @@ bookingChoice.addEventListener('change', function () {
         slotContainer.style.display = 'none';
     }
 });
-function confirm()
-{
-    alert("Your Booking is confirm");
+function confirm() {
+    // alert("Your Booking is confirm");
+    const para = document.createElement("h4");
+    const node = document.createTextNode("Your Booking is Confirm");
+    para.appendChild(node);
+    const element = document.getElementById("bookingForm");
+    element.appendChild(para).style.color="red";
 }
