@@ -1,0 +1,32 @@
+.relative{
+    height: 400px;
+    width: 500px;
+    background: #666;
+    position: relative;   
+    margin: auto;
+}
+.item{
+    height: 45%;
+    width: 40%;
+    margin: 5px ;
+    position: absolute;
+}
+.item-1{
+    top: 7%;
+    left: 10%;
+    background-color:darkcyan ;
+}
+.item-2{
+    top: 20%;
+    left: 20%;
+    background-color: orangered;
+    z-index: 1;
+
+}
+.item-3{
+    top: 30%;
+    left: 30%;
+    background-color: purple;
+    z-index: 2;
+}
+

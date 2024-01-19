@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest Number</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Highest value in an array.</h1> <br>
+
+        <span>Test data: [12,34,56,1,-12,-34,0,-56,-1]</span> <br> <br>
+        <span>Highest Number is : </span><span id="ans"></span>
+    </div>
+
+    <script>
+        const ans = Math.max(12, 34, 56, 1,-12,-34,0,-56,-1);
+
+        document.getElementById("ans").innerHTML = ans;
+    </script>
+</body>
+
+</html>

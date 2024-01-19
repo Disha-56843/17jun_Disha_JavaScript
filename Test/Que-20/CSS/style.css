@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #666;
+}
+div
+{
+    width: 40%;
+    padding: 10% 0%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    background-color: #fff;
+}
+#ans
+{
+    color: #ff0000;
+}

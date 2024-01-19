@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <div>
+    <span>Today is :</span>
+    <span id="day"></span> <br><br>
+
+    <span>Current Time is :</span>
+    <span id="time"></span>
+</div>
+
+    <script>
+        const d = document.getElementById("day")
+        const t = document.getElementById("time")
+
+        let newDate = new Date();
+        let year = newDate.getFullYear();
+        let month = newDate.getMonth();
+        let todaySDate = newDate.getDate();
+        let hours = newDate.getHours();
+        let minutes = newDate.getMinutes();
+        let seconds = newDate.getSeconds();
+
+
+        day.innerHTML = " " + todaySDate + "/ " + month + "/ " + year;
+      time.innerHTML = hours + " PM : " + minutes + ": " + seconds;
+
+
+    </script>
+</body>
+
+</html>

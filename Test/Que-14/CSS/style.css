@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #666;
+}
+form
+{
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    padding: 9%;
+    background-color: #fff;
+}
+label
+{
+    font-size: x-large;
+}
+input
+{
+    display: inline-block;
+    padding: 2% 0%;
+}
+button
+{
+    padding: 2%;
+    font-size: large;
+}

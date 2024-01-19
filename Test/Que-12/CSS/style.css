@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #666;
+}
+div
+{
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    padding: 9%;
+    background-color: #fff;
+}

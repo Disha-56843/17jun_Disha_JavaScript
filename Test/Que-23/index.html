@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <input type="text" id="display" placeholder="0">
+        <div class="part1">
+    
+            <button id="clear" onclick="clr()">AC</button>
+            <button id="delete" onclick="del()">DEL</button>
+            <button value="%" onclick="val(this.value)">%</button>
+            <button value="/" onclick="val(this.value)">/</button>
+        </div>
+        <div class="part2">
+            
+            <button onclick="oneby()"><sup>1</sup>/<sub>x</sub></button>
+            <button onclick="sqr()">x<sup>2</sup></button>
+            <button onclick="sqroot()"><sup>2</sup>√¯x</button>
+            <button onclick="negativepositive()"><sup>-</sup>/<sub>+</sub></button>
+        </div>
+        <div class="part3">
+            <button value="1" onclick="val(this.value)">1</button>
+            <button value="2" onclick="val(this.value)">2</button>
+            <button value="3" onclick="val(this.value)">3</button>
+            <button value="*" onclick="val(this.value)">X</button>
+        </div>
+        <div class="part4">
+            <button value="4" onclick="val(this.value)">4</button>
+            <button value="5" onclick="val(this.value)">5</button>
+            <button value="6" onclick="val(this.value)">6</button>
+            <button value="+" onclick="val(this.value)">+</button>
+        </div>
+        <div class="part5">
+            <button value="7" onclick="val(this.value)">7</button>
+            <button value="8" onclick="val(this.value)">8</button>
+            <button value="9" onclick="val(this.value)">9</button>
+            <button value="-" onclick="val(this.value)">-</button>
+        </div>
+        <div class="part6">
+        <button value="." onclick="val(this.value)">.</button>
+        <button value="0" onclick="val(this.value)">0</button>
+        <button value="=" id="equal" onclick="cal()">=</button>
+        </div>
+        </main>
+
+        <script src="JavaScript/min.js"></script>
+</body>
+</html>

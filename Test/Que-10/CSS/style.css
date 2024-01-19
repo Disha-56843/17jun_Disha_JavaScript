@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --text-align: center;
+  }
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 100vh;
+    background: no-repeat;
+    background-size: 100% 100%;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../Image/Background.jpeg) ;
+}
+
+/* Header css  */
+
+nav
+{
+    display: flex;
+}
+nav img
+{
+    margin-left: 5%;
+    height: 30%;
+    width: 20%;
+
+}
+ul li
+{
+    list-style: none;
+    display: inline;
+    padding: 0% 3%;
+    color: var(--white);
+}
+ul
+{
+    line-height: 7;
+    text-align: center;
+    /* float: right; */
+    margin-left: 20% !important;
+    width: 80%;
+}
+nav .collaspe
+{
+    display: inline-block;
+}
+nav i
+{
+    display: none;
+}
+
+/* Content start  */
+
+#content h1
+{
+    text-transform: uppercase;
+    color: var(--white);
+    text-align: var(--text-align);
+    margin-top: 3%;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    /* font-stretch: expanded; */
+    
+}
+#content p
+{
+    width: 40%;
+    font-size: 16px;
+    /* margin-top: 10%; */
+    color: var(--white);
+    text-align: var(--text-align);
+    margin: auto;
+}
+#content button
+{
+    /* border-radius: 30%; */
+    padding: 0.7% 0%;
+    width: 15%;
+    background-color: transparent;
+    border: 1.5px solid darkcyan !important;
+    color: var(--white);
+    margin-top: 3%;
+} 
+.mar-top
+{
+    margin-left: 35%;
+}
+
+/* For Mobile Screen  */
+@media only screen and (max-width: 600px) {
+    nav img
+{
+    margin-left: 5%;
+    height: 30%;
+    width: 40%;
+    position: fixed;
+
+}
+
+ul li
+{
+    list-style: none;
+    display: block;
+    /* padding: 0% 1%; */
+    color: var(--white);
+    font-size: medium;
+}
+ul
+{
+    margin-top: 10% !important;
+}
+nav i
+{
+    position: fixed;
+    display: block;
+    color: var(--white);
+    left: 300px;
+    margin-top: 10%;
+}
+
+#content h1
+{
+    text-transform: uppercase;
+    color: var(--white);
+    text-align: var(--text-align);
+    /* margin-top: 8%; */
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    /* font-stretch: expanded; */
+    
+}
+#content p
+{
+    width: 80%;
+    font-size: 16px;
+    /* margin-top: 10%; */
+    color: var(--white);
+    text-align: var(--text-align);
+    margin: auto;
+}
+#content button
+{
+    /* border-radius: 30%; */
+    padding: 0.7% 0%;
+    width: 30%;
+    background-color: transparent;
+    border: 1.5px solid darkcyan !important;
+    color: var(--white);
+    margin-top: 13%;
+} 
+.mar-top
+{
+    margin-left: 15%;
+}
+
+}
+@media only screen and (min-width: 600px) {
+    
+}
+@media only screen and (min-width: 768px) {
+
+}
