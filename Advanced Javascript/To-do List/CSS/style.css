@@ -1,0 +1,185 @@
+/* nav toggler  */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: -webkit-linear-gradient(left,#ffa500, #d3d3d3);
+    background: -moz-linear-gradient(left,#ffa500,#d3d3d3);
+    background: -ie-linear-gradient(left,#ffa500, #d3d3d3);
+    background: linear-gradient(to right,#666, #d3d3d3);
+}
+
+#menu {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+}
+
+#btn-toggle {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#menu-list {
+    width: 200px;
+    height: 100vh;
+    background-color: #000;
+    top: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu-list li {
+    padding: 15px 15px;
+}
+
+#menu-list a {
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+
+
+
+#menu-list.active {
+    animation: slide-in 0.3s ease-in-out;
+}
+
+#menu-list:not(.active) {
+
+    animation: slide-out 0.3s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-out {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* TODO List  */
+
+#myDiv 
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    margin-top: 8%;
+
+
+}
+h4 {
+    color: #fff;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: justify;
+    padding: 15px;
+    margin-left: 22%;
+
+}
+#myDiv hr 
+{
+    width: 30%;
+    margin: auto;
+}
+#myDiv h1 
+{
+    font-size: 45px;
+    text-align: center;
+}
+
+::placeholder
+{
+    font-size: 24px;
+    color: #000;
+}
+
+#items
+{
+    width: 55%;
+    height: auto;
+    margin: auto;
+    margin-left: 22%;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+
+}
+
+
+
+#items li 
+{
+    text-decoration: underline;
+    list-style-type: none;
+    padding: 8px 20px;
+    
+}
+#items li a 
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+
+.input-group:nth-child(1)
+{
+    width: 75%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+
+
+.list-group-item
+{
+    margin: 10px;
+    padding: 5px;
+}
+.delete
+{
+    width: auto;
+    height: auto;
+    background-color: red;
+    color: white;
+    margin-left: 1%;
+}
+.edit
+{
+    width: auto;
+    height: auto;
+    color: white;
+    margin-left: 2% !important;
+}

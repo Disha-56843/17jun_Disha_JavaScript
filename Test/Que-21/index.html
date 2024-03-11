@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Largest Number</title>
+    <title>Lowest Number</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
@@ -12,14 +12,18 @@
     <div>
         <h1>Lowest value in an array.</h1> <br>
 
-        <span>Test data: [12,34,56,1,-12,-34,0,-56,-1]</span> <br> <br>
+        <span>Test data: [12,34,56,1][-12,-34,0,-56,-1]</span> <br> <br>
         <span>Highest Number is : </span><span id="ans"></span>
     </div>
 
     <script>
-        const ans = Math.min(12, 34, 56, 1,-12,-34,0,-56,-1);
+        let arr = [12, 34, 56, 1]
+        let arr1= [-12,-34,0,-56,-1]
+        const ans = Math.min(...arr,...arr1);
+
 
         document.getElementById("ans").innerHTML = ans;
+
     </script>
 </body>
 
