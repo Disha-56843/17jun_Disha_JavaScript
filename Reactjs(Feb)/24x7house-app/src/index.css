@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-#header {
+.header {
   background: linear-gradient(90deg, rgba(52, 78, 65, 0.95) 32.29%, rgba(0, 0, 0, 0.13) 100%), url(Assets/Header.png) !important;
   background-repeat: no-repeat !important;
   background-size: 100% 100% !important;
@@ -79,4 +79,8 @@ a select {
   background-color: transparent;
   border: none;
   color: #fff;
+}
+.text-lightgreen
+{
+  color: #A3B18A;
 }
